@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <video
+    <video autoplay playsinline
       class="video"
       :class="facingMode === 'user' ? 'front' : ''"
       ref="video"
