@@ -2,7 +2,7 @@
   <div class="wrapper">
     <video autoplay playsinline
       class="video"
-      :class="facingMode === 'user' ? 'front' : ''"
+      :class="facingMode === 'user' ? 'back' : ''"
       ref="video"
     />
     <canvas style="display: none" ref="canva" />
